@@ -14,7 +14,7 @@ function App() {
       <nav>
         <ul>
           <li>
-            <Link to="home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="smiley">Smiley</Link>
@@ -28,7 +28,7 @@ function App() {
       {/* ClockContext is made available for all the components inside the provider element. */}
       <ClockContext.Provider value={{ value, setValue }}>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Smiley" element={<Smiley />} />
           <Route path="/Spin" element={<Spin />} />
         </Routes>
