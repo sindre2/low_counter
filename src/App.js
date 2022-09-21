@@ -7,7 +7,10 @@ import { ClockContext } from "./pages/Components/ClockContext";
 import { useState } from "react";
 
 function App() {
-  const [value, setValue] = useState(0);
+  let timerUpdate = new Date();
+  let zeTime = `${timerUpdate.getHours()}:${timerUpdate.getMinutes()}:${timerUpdate.getSeconds()}`;
+
+  const [value, setValue] = useState(zeTime);
 
   return (
     <>
