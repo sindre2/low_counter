@@ -1,7 +1,7 @@
 {
   "name": "low_counter",
   "version": "0.1.0",
-  "home": "https://sindre2.github.io/low_counter",
+  "homepage": "https://sindre2.github.io/low_counter",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
