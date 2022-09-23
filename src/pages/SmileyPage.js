@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ClockContext } from "./Components/ClockContext";
+import { ClockContext } from "../components/ClockContext";
 
 export function Smiley() {
   const { value, setValue } = useContext(ClockContext);

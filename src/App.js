@@ -3,7 +3,7 @@ import { Home } from "./pages/HomePage";
 import { Smiley } from "./pages/SmileyPage";
 import { Spin } from "./pages/SpinPage";
 import { Route, Link, Routes } from "react-router-dom";
-import { ClockContext } from "./pages/Components/ClockContext";
+import { ClockContext } from "./components/ClockContext";
 import { useState } from "react";
 
 function App() {

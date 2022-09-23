@@ -1,4 +1,4 @@
-import { ClockContext } from "./Components/ClockContext";
+import { ClockContext } from "../components/ClockContext";
 import { useContext } from "react";
 
 // Use Context allows for manipulation of the provided context. useState allows continouos update in setInterval.
