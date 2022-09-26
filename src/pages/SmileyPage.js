@@ -2,14 +2,7 @@ import { useContext } from "react";
 import { ClockContext } from "../components/ClockContext";
 
 export function Smiley() {
-  const { value, setValue } = useContext(ClockContext);
-
-  setInterval(() => {
-    let timerUpdate = new Date();
-    setValue(
-      `${timerUpdate.getHours()}:${timerUpdate.getMinutes()}:${timerUpdate.getSeconds()}`
-    );
-  }, 1000);
+  const { value } = useContext(ClockContext);
 
   return (
     <>
